@@ -32,7 +32,7 @@ export default function HomePage() {
         <PostOwner profile = "/profileImages/handsome.jpg" ownerName = "Koorawit Piboon 650612076" ownerText = "ไม่ชอบทำหน้าเว็ปเลย" like = {100}/>
 
         {/* Comment Example */}
-        <Comment userImagePath="/profileImages/lisa.jpg" commentText="จริงค่า" username="Lisa" likeNum = {999}  replies = {reply_in_comment}/>
+        <Comment userImagePath="/profileImages/lisa.jpg" commentText="จริงค่า" username="Lisa" likeNum = {999}/> {/*replies = {reply_in_comment}/>*/}
 
         {/* Reply Example */}
         {/* <Reply userImagePath={"/profileImages/puppy.jpg"} username = {"หมาน้อย"} commentText="จริงค้าบบบบบบบ" likenum = {2}/> */}
