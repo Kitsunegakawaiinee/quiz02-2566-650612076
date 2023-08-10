@@ -8,7 +8,7 @@ export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
     if(likeNum > 0) setTextLike(
       <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>
-        <span className="text-muted">{likeNum} คน</span>
+        <span className="text-muted" style={{ color: "#B0B3B8" }}>{likeNum} คน</span>
       </div>
     )
   },[likeNum])
