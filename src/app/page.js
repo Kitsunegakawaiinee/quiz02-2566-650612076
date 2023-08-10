@@ -7,8 +7,8 @@ import { Reply } from "@/components/Reply";
 export default function HomePage() {
 
   const reply_in_comment = [
-    <Reply userImagePath={"/profileImages/puppy.jpg"} username = {"หมาน้อย"} commentText="จริงค้าบบบบบบบ" likenum = {2}/>, 
-    <Reply userImagePath={"/profileImages/popcat.png"} username = {"Cat Meme"} commentText="ยิซ่าาาาาา" likenum = {2}/>
+    <Reply key = {0} userImagePath={"/profileImages/puppy.jpg"} username = {"หมาน้อย"} commentText="จริงค้าบบบบบบบ" likenum = {2}/>, 
+    <Reply  key = {1} userImagePath={"/profileImages/popcat.png"} username = {"Cat Meme"} commentText="ยิซ่าาาาาา" likenum = {2}/>
   ]
 
     //test
