@@ -6,17 +6,17 @@ import { Reply } from "@/components/Reply";
 
 export default function HomePage() {
 
-  const reply_in_comment = [
-    <Reply key = {0} userImagePath={"/profileImages/puppy.jpg"} username = {"หมาน้อย"} commentText="จริงค้าบบบบบบบ" likenum = {2}/>, 
-    <Reply  key = {1} userImagePath={"/profileImages/popcat.png"} username = {"Cat Meme"} commentText="ยิซ่าาาาาา" likenum = {2}/>
-  ]
+  // const reply_in_comment = [
+  //   <Reply key = {0} userImagePath={"/profileImages/puppy.jpg"} username = {"หมาน้อย"} commentText="จริงค้าบบบบบบบ" likenum = {2}/>, 
+  //   <Reply  key = {1} userImagePath={"/profileImages/popcat.png"} username = {"Cat Meme"} commentText="ยิซ่าาาาาา" likenum = {2}/>
+  // ]
 
     //test
-    const cout = (() => {
-      reply_in_comment.map((x) =>{
-        return <Reply userImagePath={x.userImagePath} username = {x.username} commentText = {x.commentText} likeNum = {x.likeNum}/>
-      });
-    });
+    // const cout = (() => {
+    //   reply_in_comment.map((x) =>{
+    //     return <Reply userImagePath={x.userImagePath} username = {x.username} commentText = {x.commentText} likeNum = {x.likeNum}/>
+    //   });
+    // });
 
   return (
     <div
